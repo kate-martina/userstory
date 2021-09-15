@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 16px;
+  }
+  
+  body {
+      color: #333;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      margin: 0;   
+  }
+  
+  /*header*/
+  
+  #main{
+      background: white;
+      margin: 0;
+      padding: 0;    
+  }
+  
+  .header{
+    margin:0 auto;
+    padding: 30px 0;
+  }
+  
+  #title{
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px 5px 5px 5px;
+    text-align:center;
+  }
+  
+  
+  .header p{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  #img-div{
+    background: #eee;
+    margin: 0 auto;
+    padding: 20px 10px 10px;
+    margin: 0 auto;
+  }
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    width:100%;    
+  }
+  
+  #img-caption{
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 25px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /*section-tribute*/
+  
+  #time-line{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  #tribute-info ul{
+    margin: auto;
+    max-width: 550px;
+  }
+  
+  #tribute-info ul li{ 
+    display: list-item;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 15px 10px;
+    text-align: left;
+  }
+  
+  #tribute-info ul li:hover{
+    background: #dae7fe;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+  }
+  
+  /*section-blockquote*/
+  
+  #blockquote{
+    background:#eee;
+    margin: 50px auto;
+    padding: 30px 15px;
+    width:100%;
+  }
+  
+  #blockquote p{
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 20px;
+    padding: 0;
+    max-width: 550px;
+    text-align:center;
+    width:100%;
+    }
+  
+  #blockquote #cite::before{
+    color:#706464;
+    content: open-quote;
+    font-size: 2rem;
+  }
+  
+  /*section wiki-link*/
+  
+  #wiki-link p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 27px;
+    margin:0 auto;
+    padding: 15px 15px 50px;
+    max-width: 600px;
+  }
+  
+  a {
+    color: #88b2fc;
+    text-decoration: none;
+  }
+   
+  a:hover{
+    color: #518ffc;
+  }
+  
+  /*media tribute*/
+  
+  @media (min-width: 700px){
+    html{
+     font-size: 18px;
+  }
+    
+    #blockquote p{
+      margin:0 auto 20px;
+      max-width: 600px;
+      width:80%;
+    }
+    
+    #blockquote #name{
+      text-align: left;
+    }
+    
+  }
